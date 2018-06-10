@@ -50,21 +50,22 @@ header {
     height:500px;
     margin: 100px auto;
     padding: 1000px, 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .btn {
     background-color:rgb(240, 146, 51);
     color:white;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 14px;
     letter-spacing: 0.5px;
     text-align: center;
-    text-decoration: none;
-    margin: auto 0;
-    padding: 10px;
+    
+    margin: 10px 0;
+    padding: 3px;
+    width:200px;
     border-radius: 50px;
-    letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -78,3 +79,53 @@ header {
     margin: 0 auto;
     float: right;
 }
+
+.seccion1 {
+    font-family: roboto;
+    color: white;
+    background: rgb(39, 53, 71);
+    text-align: center;
+    
+}
+.list {
+    font-family: roboto;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.collaboration {
+    text-align: center;
+}
+
+.btn2 {
+    background-color:rgb(203, 56, 55);
+    color:white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+   
+    
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 3px;
+    width:200px;
+    border-radius: 50px;
+}
+
+.btn2:hover {
+        opacity: 0.50;
+        -moz-opacity: .50;
+        filter:alpha (opacity=50);
+}
+
+.about {
+    color: white;
+    text-decoration: none;
+    text-underline-position: none;
+}
+
+
